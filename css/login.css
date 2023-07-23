@@ -1,0 +1,47 @@
+@import url('http://fonts.cdnfonts.com/css/minecraft-4');
+@import url('http://fonts.cdnfonts.com/css/noto-sans');
+
+* {
+    -webkit-user-drag: none;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #F6E9FD;
+    color: #2c2f33;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+    color: #1877f2;
+}
+
+hr {
+    background: #f7f7f7;
+    margin: 1rem;
+}
+
+.text-mc {
+    font-family: 'Minecraft', sans-serif;
+}
+
+.alert-primary {
+    background-color: #283149;
+    color: #F6E9FD;
+    border: none;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-small {
+    font-size: .860rem;
+    line-height: 1.20rem;
+}
