@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elder Quest — Redécouvrez l'aventure Minecraft !</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+                <div class="d-flex" role="search">
+                    <a class="nav-link nav-toplink" href="">Se connecter</a>
+                    <a class="nav-link nav-toplink ps-4 pe-2" href="https://dommioss.fr/" target="_blank">Dommioss <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark main-nav pt-0">
+        <div class="container justify-content-center">
+            <ul class="nav navbar-nav w-100 flex-nowrap">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">À propos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Contenu
+                    </a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Saison 1</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Actualité</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Règlement</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="#"><img src="./assets/images/logo.png"
+                            class="logo-brand"></a></li>
+            </ul>
+            <ul class="nav navbar-nav w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://dommioss.fr/discord" target="_blank"><i
+                            class="fa-brands fa-discord"></i> Discord <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://tiktok.com/@groupedommioss" target="_blank"><i
+                            class="fa-brands fa-tiktok"></i> TikTok <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="status-banner text-center pt-0 pb-2">SAISON 1 DISPONIBLE PROCHAINEMENT !</div>
+
+    <div id="carouselElderQuest" class="carousel slide h50" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselElderQuest" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselElderQuest" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselElderQuest" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner h50">
+            <div class="carousel-item active">
+                <img src="./assets/images/slider-1.png" class="d-block w-100" alt="Slider 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/slider-2.png" class="d-block w-100" alt="Slider 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/slider-3.png" class="d-block w-100" alt="Slider 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselElderQuest" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselElderQuest" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Suivant</span>
+        </button>
+    </div>
+    <div class="container-fluid">
+        <div class="row pt-5 pb-3 text-center justify-content-center">
+            <h2 class="section-title">S'abonner à la Newsletter</h2>
+            En vous abonnant à la Newsletter, vous serez averti à chaque nouveauté majeure !
+            <div class="separator"></div>
+            <label><b>Adresse e-mail</b></label><br>
+            <input type="text" class="form-control w50p"><br>
+            <small><i>Vous pourrez toujours vous désabonner plus tard.</i></small>
+            <div class="separator"></div>
+            <button class="btn-mc">Je m'abonne</button>
+        </div>
+
+        <div class="row pt-5 bg-orange">
+            <div>
+                <div class="container about-image">
+                    <div class="col-6">
+                        <h4>Découvrez une aventure<br>unique !</h4><br><br>
+                        Voyagez seul et découvrez l'histoire de cette saison ! Amusez-vous au maximum et aventurez-vous
+                        dans les décombres de <b>laboratoires</b>, de <b>villages</b> ou encore de <b>cavités</b> pour
+                        découvrir l'origine de cette mystérieuse <b>bactérie</b> autour de laquelle tourne cette
+                        première saison !<br><br>
+                        Chaque détail à son importance dans nos histoires, veillez à faire attention à chacun d'entre
+                        eux pour comprendre au mieux les scénarios.
+                    </div>
+                </div>
+
+            </div>
+            <div class="separator"></div>
+
+            <div class="blank-section adventure-bottom-section"></div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row pt-5 pb-3">
+            <h2 class="section-title text-center">Élargissez la communauté</h2>
+            <div class="row pt-5">
+                <div class="col-xs-12 col-sm-6">
+                    <h3 class="section-title">Se connecter au<br>serveur</h3>
+                    Elder Quest est un serveur Minecraft saisonnier.<br>
+                    Vous pouvez vous connecter en version <b>1.19 <i>WILD UPDATE</i></b> de Minecraft <i>Java
+                        Edition</i> avec l'IP
+                    <b>MC.ELDERQUEST.DOMMIOSS.FR</b> !
+                    <br><br>
+                    Malheuresement, nous n'acceptons que les versions officielles du jeu sur notre serveur.<br><br>
+
+                    <a href="https://minecraft.net/get-minecraft" target="_blank"
+                        class="cyan-link text-decoration-none"><i class="fa-solid fa-arrow-right"></i> Acheter Minecraft
+                        <i>Java Edition</i></a>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="how-to-play-image"></div>
+                </div>
+            </div>
+            <div class="big-separator"></div>
+            <div class="row pt-5 pb-5">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="last-news-image"></div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <h3 class="section-title">Lire la dernière<br>actualité</h3>
+                    Esse occaecat cupidatat magna eiusmod do anim amet do eu sit enim. Ut nulla duis labore deserunt
+                    adipisicing do nostrud irure labore dolor consequat.<br><br> Mollit eiusmod culpa anim incididunt
+                    qui ex
+                    consequat cupidatat excepteur eiusmod dolore deserunt.<br><br>
+
+                    <a href="" class="cyan-link text-decoration-none"><i class="fa-solid fa-arrow-right"></i> Voir
+                        toutes les actualités de <i>Elder Quest</i></a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <footer>
+
+        <div class="blank-section footer-top-section"></div>
+        <div class="bg-darkish text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="col-md-6">
+                            <img src="./assets/images/logo.png" class="w100p">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <div class="logo-part">
+                                    <div class="separator"></div>
+                                    <p>Le serveur Elder Quest est un serveur Minecraft&trade; dans lequel vous pouvez
+                                        découvrir de nouvelles histoires à chaque saison.</p>
+
+                                    <p>Ce service est édité par le <a href="https://dommioss.fr/">Groupe Dommioss</a> et
+                                        ses équipes.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 px-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6 px-4">
+                                <h6> Liens Utiles</h6>
+                                <div class="row ">
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li> <a href=""> À propos</a> </li>
+                                            <li> <a href=""> Actualités</a> </li>
+                                            <li> <a href=""> Règlement</a> </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6 px-4">
+                                        <ul>
+                                            <li> <a href=""> Saison N°1</a> </li>
+                                            <li> <a href="https://dommioss.fr/" target="_blank"> Dommioss</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <h6> Nos réseaux</h6>
+                                <div class="social">
+                                    <a href="./discord"><i class="fa-brands fa-discord" aria-hidden="true"></i></a>
+                                    <a href="https://twitter.com/GroupDommiossFR" target="_blank"><i
+                                            class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://github.com/DommiossGroup" target="_blank"><i
+                                            class="fa-brands fa-github"></i></a>
+                                    <a href="https://tiktok.com/@groupedommioss" target="_blank"><i
+                                            class="fa-brands fa-tiktok"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bg-black">
+            <div class="container-fluid text-center text-white pt-1 pb-1">
+                <p>2022 &copy; Tous droits réservés au Groupe Dommioss<br>
+                    Minecraft est la propriété de <a class="text-decoration-none nav-toplink"
+                        href="https://mojang.com/">Mojang Studios&trade;</a>. Elder Quest n'est pas affilié à Minecraft.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/9effd4ff41.js" crossorigin="anonymous"></script>
+
+</html>

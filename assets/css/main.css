@@ -1,0 +1,210 @@
+
+    @import url('http://fonts.cdnfonts.com/css/minecraft-4');
+    @import url('http://fonts.cdnfonts.com/css/noto-sans');
+
+    body {
+        font-family: 'Noto sans', sans-serif;
+    }
+
+    .font-minecraft {
+        font-family: 'Minecraft', sans-serif;
+    }
+
+    .nav-link {
+        font-style: normal;
+        font-weight: 700;
+        font-family: 'Noto Sans';
+        font-size: .75rem;
+        letter-spacing: .08em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .nav-link:hover {
+        color: #30b3c7;
+    }
+
+    .nav-toplink {
+        color: #30b3c7;
+    }
+
+    .nav-toplink:hover {
+        color: #ffffff;
+    }
+
+    .status-banner {
+        background: url('../images/cyan-concrete-powder.png') #30b3c7;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Minecraft', sans-serif;
+        font-size: 30px;
+        margin-top: 0px;
+        padding-top: 0px;
+        color: #ffffff;
+    }
+
+    .dropdown-item {
+        color: #ffffff;
+    }
+
+    .dropdown-item:hover {
+        background-color: #30b3c7;
+    }
+
+    .blank-section {
+        background-repeat: repeat-x;
+    }
+
+    .about-image {
+        background-image: url('../images/slider-1.png');
+
+        background-size: cover;
+        background-position: center center;
+        margin: auto;
+        max-width: 1200px;
+        min-height: 540px;
+        color: #ffffff;
+        padding: 4rem 4rem 4rem 4rem;
+        -webkit-filter: drop-shadow(5px 5px 5px #222222);
+        filter: drop-shadow(5px 5px 5px #222222);
+    }
+
+    .section-title {
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .separator {
+        height: 25px;
+    }
+
+    .big-separator {
+        height: 50px;
+    }
+
+    .how-to-play-image {
+        background-image: url('../images/how-to-play.jpg');
+        max-width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center center;
+        margin: auto;
+        min-height: 100%;
+        -webkit-filter: drop-shadow(5px 5px 5px #222222);
+        filter: drop-shadow(5px 5px 5px #222222);
+
+    }
+
+    .last-news-image {
+        background-image: url('../images/steve-horse.jpg');
+        max-width: 90%;
+        height: auto;
+        background-size: cover;
+        background-position: center center;
+        margin: auto;
+        min-height: 100%;
+        -webkit-filter: drop-shadow(5px 5px 5px #222222);
+        filter: drop-shadow(5px 5px 5px #222222);
+
+    }
+
+
+    .cyan-link {
+        color: #1e5780;
+        font-weight: 700;
+        position: relative;
+        text-transform: uppercase;
+        text-align: inherit;
+        display: block;
+        font-family: "Noto Sans";
+    }
+
+    .cyan-link:hover {
+        color: #2670a4;
+    }
+
+    .bg-darkish {
+        background-color: #292b2c;
+    }
+
+    footer ul li {
+        list-style: none;
+        display: block;
+    }
+
+    footer ul {
+        padding-left: 0;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: grey;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: none;
+        color: #30b3c7 !important;
+    }
+
+    /* button */
+
+    .btn-mc {
+        box-sizing: border-box;
+        position: relative;
+        width: 130px;
+        height: 41px;
+        background-color: #30b3c7;
+        border-width: 0 0 4px;
+        border-bottom: 2px solid #2670a4;
+        margin: 0;
+        padding: 9px 0;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 700;
+        color: black;
+        letter-spacing: .03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .btn-mc:hover {
+        background-color: #bac5c7;
+        border-bottom: 2px solid #808385;
+        width: 129px;
+        height: 40px;
+
+    }
+
+    .bg-orange {
+        background-color: #ffb054;
+    }
+
+    .logo-brand {
+        height: 75px;
+        width: auto;
+    }
+
+    .h50 {
+        height: 50vh;
+    }
+
+    .w50p {
+        width: 50%;
+    }
+
+    .w100p {
+        width: 100%;
+    }
+
+    .footer-top-section {
+        height: 72px;
+        background-image: url('../images/section-footer-dark.png');
+    }
+
+    .adventure-bottom-section {
+        height: 72px;
+        background-image: url('../images/section-footer-orange.png');
+    }
